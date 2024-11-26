@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #68524f;
+	color: #fff;
+}
+
+.logo {
+	display: flex;
+	width: 50px;
+	margin-right: 10px;
+}
+
+header nav a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	flex-direction: row;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #e6b120;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 10%;
+}
+
+.vem h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+span {
+	color: #f0c75e;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+form input {
+	display: block;
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 20px;
+}
+
+form button {
+	background-color: #f0c75e;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.coffee {
+	width: 400px;
+	border-radius: 15px;
+}
